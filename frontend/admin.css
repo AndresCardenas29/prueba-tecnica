@@ -60,6 +60,16 @@ form button {
 #coursesList table {
 	width: 100%;
 	border-collapse: collapse;
+}
 
+.btn-delete, .btn-edit {
+	padding: 2px 5px;
+}
+
+.btn-delete {
+	background-color: #dc3545;
+	color: white;
+	cursor: pointer;
+	border: #007bff;
 
 }
