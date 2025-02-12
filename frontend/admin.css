@@ -45,16 +45,20 @@ form button {
 }
 
 #coursesList {
-	list-style-type: none;
-	padding: 0;
-	margin-top: 50px;
 	text-align: center;
-	display: flex;
-	align-items: center;
-	justify-content: center;
 	background: #fff;
 	padding: 20px 30px;
 	border-radius: 0.5rem;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	overflow-x: auto;
+	width: auto;
+	padding: 10px 20px;
+}
+
+th,
+td {
+	padding: 10px; /* Espaciado interno para las celdas */
+	text-align: left; /* Alineación del texto */
 }
 
 #coursesList table {
@@ -62,7 +66,8 @@ form button {
 	border-collapse: collapse;
 }
 
-.btn-delete, .btn-edit {
+.btn-delete,
+.btn-edit {
 	padding: 2px 5px;
 }
 
@@ -71,5 +76,4 @@ form button {
 	color: white;
 	cursor: pointer;
 	border: #007bff;
-
 }
