@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Admin - LMS</title>
+		<link rel="stylesheet" href="admin.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="admin-container">
+				<h2>Panel de Administración de Cursos</h2>
+				<form id="addCourseForm">
+					<input
+						type="text"
+						id="courseName"
+						placeholder="Nombre del curso"
+						required
+					/>
+					<textarea
+						id="courseDescription"
+						placeholder="Descripción del curso"
+						required
+					></textarea>
+					<button type="submit">Agregar Curso</button>
+				</form>
+				<h2>Lista de Cursos</h2>
+				<div id="coursesList">
+					<table>
+						<thead>
+							<tr>
+								<th>ID</th>
+								<th>Name</th>
+								<th>Description</th>
+							</tr>
+						</thead>
+						<!-- Aquí se mostrarán los cursos agregados -->
+						<tbody>
+							<!-- <tr>
+								<td>1</td>
+								<td>Curso 1</td>
+								<td>Description 1</td>
+							</tr> -->
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+		<script src="admin.js"></script>
+		<!-- Cambia app.js por admin.js -->
+	</body>
+</html>
